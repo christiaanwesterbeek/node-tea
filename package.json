@@ -1,5 +1,5 @@
 {
-  "name": "node-tea",
+  "name": "tea",
   "version": "0.0.1",
   "description": "Block TEA (xxtea) Tiny Encryption Algorithm implementation for Node",
   "engines": {
