@@ -26,3 +26,18 @@ var decrypted = tea.decrypt(encrypted, password);
 console.log(clear, encrypted, decrypted);
 //--> 'string to be encrypted', 'xR4q8OXWSShGk/LYrCQNLWET1GtXooG3', 'string to be encrypted'
 ```
+
+## Attribution
+```javascript
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+/*  Block TEA (xxtea) Tiny Encryption Algorithm implementation in JavaScript                      */
+/*     (c) Chris Veness 2002-2012: www.movable-type.co.uk/tea-block.html                          */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+/*  Algorithm: David Wheeler & Roger Needham, Cambridge University Computer Lab                   */
+/*             http://www.cl.cam.ac.uk/ftp/papers/djw-rmn/djw-rmn-tea.html (1994)                 */
+/*             http://www.cl.cam.ac.uk/ftp/users/djw3/xtea.ps (1997)                              */
+/*             http://www.cl.cam.ac.uk/ftp/users/djw3/xxtea.ps (1998)                             */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+```
