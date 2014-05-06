@@ -1,18 +1,5 @@
 *Block TEA (xxtea) Tiny Encryption Algorithm implementation in JavaScript as a Node module*
 
-A complete copy paste of code from http://www.movable-type.co.uk/scripts/tea-block.html
-
-## Install
-
-To install run `npm install git://github.com/devotis/node-tea#master`
-
-Or add this to package.json
-
-    "dependencies": {
-        "tea": "git://github.com/devotis/node-tea#master"
-    }
-...and run `npm install`
-
 ## Usage
 
 ```javascript
@@ -27,7 +14,24 @@ console.log(clear, encrypted, decrypted);
 //--> 'string to be encrypted', 'xR4q8OXWSShGk/LYrCQNLWET1GtXooG3', 'string to be encrypted'
 ```
 
+## Install
+
+To install run `npm install git://github.com/devotis/node-tea#master`
+
+Or add this to package.json
+
+    "dependencies": {
+        "tea": "git://github.com/devotis/node-tea#master"
+    }
+...and run `npm install`
+
 ## Attribution
+
+The code of index.js is a complete copy paste of what you can find here by the original author http://www.movable-type.co.uk/scripts/tea-block.html
+
+I have changed nothing except adding `module.exports = Tea;`
+
+
 ```javascript
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
 /*  Block TEA (xxtea) Tiny Encryption Algorithm implementation in JavaScript                      */
