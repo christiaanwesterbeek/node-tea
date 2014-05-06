@@ -1,0 +1,35 @@
+{
+  "name": "node-tea",
+  "version": "0.0.1",
+  "description": "Block TEA (xxtea) Tiny Encryption Algorithm implementation for Node",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "author": {
+    "name": "Christiaan Westerbeek",
+    "email": "chris@devotis.nl"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devotis/node-tea.git"
+  },
+  "main": "./index.js",
+  "keywords": [
+    "encryption",
+    "decryption",
+    "tea",
+    "xxtea"
+  ],
+  "licenses": [
+    {
+      "type": "Creative Commons Attribution 3.0 License",
+      "url": "http://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "readme": "Block TEA (xxtea) Tiny Encryption Algorithm implementation for Node",
+  "readmeFilename": "Readme.md",
+  "bugs": {
+    "url": "https://github.com/devotis/node-tea/issues"
+  },
+  "homepage": "https://github.com/devotis/node-tea"
+}
