@@ -4,9 +4,14 @@ A complete copy paste of code from http://www.movable-type.co.uk/scripts/tea-blo
 
 ## Install
 
-To install packnode, use [npm](http://github.com/isaacs/npm)
+To install run `npm install git://github.com/devotis/node-tea#master`
 
-    $ npm install tea
+Or add this to package.json
+
+    "dependencies": {
+        "tea": "git://github.com/devotis/node-tea#master"
+    }
+...and run `npm install`
 
 ## Usage
 
